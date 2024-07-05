@@ -70,6 +70,7 @@ class MNISTClient(fl.client.NumPyClient):
         self, parameters: List[np.ndarray], config: Dict[str, str]
     ) -> Tuple[float, int, Dict]:
         # Set model parameters, evaluate model on local test dataset, return result
+        print("Client Evaluation: ")
         self.set_parameters(parameters)
         loss, accuracy = mnist.test(self.model, self.test_loader, self.train_conf)
         return float(loss), len(self.test_loader.dataset), {"accuracy": float(accuracy)}
@@ -78,7 +79,7 @@ class MNISTClient(fl.client.NumPyClient):
 def main() -> None:
     """Load data, start MNISTClient."""
     parser = argparse.ArgumentParser(description="Flower")
-    parser.add_argument("--partition-id", type=int, required=True, choices=range(0, 10))
+    parser.add_argument("--partition-id", type=int, required=True)
     parser.add_argument('--train-conf', type=str, required=True, help='Path to the configuration file')
     args = parser.parse_args()
     train_conf = mnist.load_train_conf(args.train_conf)

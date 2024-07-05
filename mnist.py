@@ -109,7 +109,7 @@ def calculate_label_distribution(targets, client_data):
             label_distribution[client_id][label] += 1
     return label_distribution
 
-def plot_label_distribution(label_distribution, title):
+def plot_label_distribution(label_distribution, title, outfile):
     clients = list(label_distribution.keys())
     labels = list(range(10))  # MNIST has 10 classes
 
@@ -128,7 +128,8 @@ def plot_label_distribution(label_distribution, title):
     ax.set_ylabel('Client')
     ax.set_title(title)
     ax.legend(loc='upper right', bbox_to_anchor=(1.1, 1.05))
-    plt.show()
+    plt.savefig(outfile)
+    plt.close()
 
 def load_data(partition_id: int, train_conf: Dict[str, Any]):
 
@@ -141,8 +142,10 @@ def load_data(partition_id: int, train_conf: Dict[str, Any]):
     else:
         client_data = partition_data_iid(train_dataset, train_conf["num_clients"])
 
-    if train_conf["show_client_label_distribution"]:
-        plot_label_distribution(calculate_label_distribution(train_dataset.targets, client_data), "client_data")
+    prefix = os.getenv("PREFIX_PATH")
+    if prefix == None: prefix = "./"
+    output_file = os.path.join(prefix, "data distribution: "+train_conf["description"]+".png")
+    plot_label_distribution(calculate_label_distribution(train_dataset.targets, client_data), train_conf["description"], output_file)
     train_indices = client_data[partition_id]
     train_dataset_subset = Subset(train_dataset, train_indices)
     # check the sharding is correct

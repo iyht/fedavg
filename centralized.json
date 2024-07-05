@@ -1,9 +1,10 @@
 {
+    "description": "Centralized B=32 E=30",
     "device": "mps",
-    "epochs": 1,
+    "epochs": 5,
     "batchsize": 32,
     "log_interval": 10,
     "num_clients": 1,
     "non_iid": false,
-    "show_client_label_distribution": true
+    "show_client_label_distribution": false
 }

@@ -1,11 +1,11 @@
 {
-    "description": "B=10 E=1 IID",
+    "description": "B=Full E=1 IID",
     "device": "mps",
     "epochs": 1,
-    "batchsize": 10,
+    "batchsize": "full",
     "log_interval": 10,
     "num_clients": 10,
     "num_shards": 200,
-    "non_iid": true,
+    "non_iid": false,
     "num_rounds": 10
 }
