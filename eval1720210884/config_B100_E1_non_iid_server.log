@@ -1,0 +1,216 @@
+[92mINFO [0m:      Starting Flower server, config: num_rounds=10, no round_timeout
+[92mINFO [0m:      Flower ECE: gRPC server running (10 rounds), SSL is disabled
+[92mINFO [0m:      [INIT]
+[92mINFO [0m:      Requesting initial parameters from one random client
+[92mINFO [0m:      Received initial parameters from one random client
+[92mINFO [0m:      Evaluating initial global parameters
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 1]
+[92mINFO [0m:      configure_fit: strategy sampled 4 clients (out of 4)
+[92mINFO [0m:      aggregate_fit: received 4 results and 0 failures
+[93mWARNING [0m:   No fit_metrics_aggregation_fn provided
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 2]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:46:26.033016000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 3]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:48:03.727564000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:48:23.155171000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 4]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:49:12.920447000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:49:19.850397000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:49:21.642544000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:49:29.124835000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 5]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:50:33.206898000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:34.684705000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:35.864982000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:38.519202000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:39.867995000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:40.978412000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:42.865597000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:44.066591000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:46.222270000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:47.941614000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:49.349329000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:51.661722000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:52.801865000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:54.519348000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:56.788135000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:50:59.277038000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:00.406294000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:02.161038000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:03.472780000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:04.569198000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:05.617707000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:06.759744000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:09.029219000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:10.072986000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:11.279938000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:51:12.287548000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 6]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:52:01.651584000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:03.152582000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:08.513928000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:11.607341000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:12.662645000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:17.380567000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:19.423203000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:22.500958000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:26.422865000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:30.265143000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:32.033979000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:34.241953000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:35.545823000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:36.847757000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:52:37.853253000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 7]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:53:26.633824000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:53:28.946626000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:53:37.082850000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:53:39.105292000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:53:47.508536000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:53:54.486579000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:53:56.129072000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:53:58.689382000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:00.338740000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 8]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:54:48.450923000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:49.478391000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:50.706742000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:52.017891000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:53.366955000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:54.452567000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:55.470719000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:56.512631000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:57.539892000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:54:58.772949000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:00.180204000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:02.830585000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:04.014826000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:05.106295000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:06.364119000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:08.138701000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:09.414738000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:10.515096000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:13.311559000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:14.932469000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:16.004879000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:18.026950000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:19.830772000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:21.577857000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:22.589348000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:24.601304000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:26.180289000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:27.406414000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:55:28.812395000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 9]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:56:16.030188000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:17.073266000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:18.327659000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:20.363756000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:22.539268000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:23.838816000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:26.602424000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:27.836801000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:28.976869000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:30.083925000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:32.560797000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:34.049688000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:35.565914000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:36.825459000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:38.202955000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:39.591237000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:41.219669000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:42.634417000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:43.649200000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:45.055102000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:47.467580000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:48.501687000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:56:50.467360000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 10]
+[92mINFO [0m:      configure_fit: strategy sampled 99 clients (out of 99)
+E0705 14:57:38.585306000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:57:43.043884000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:57:53.551920000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:57:56.983317000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:04.003446000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:06.308895000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:13.150205000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:14.426290000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:15.929187000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:22.331028000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:23.959374000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:26.612874000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+E0705 14:58:28.430565000 6164819968 tcp_posix.cc:598]                  recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      aggregate_fit: received 99 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 99 clients (out of 99)
+[92mINFO [0m:      aggregate_evaluate: received 99 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [SUMMARY]
+[92mINFO [0m:      Run finished 10 round(s) in 890.98s
+[92mINFO [0m:      	History (loss, distributed):
+[92mINFO [0m:      		round 1: 230.39068603515625
+[92mINFO [0m:      		round 2: 230.26649475097656
+[92mINFO [0m:      		round 3: 230.1409912109375
+[92mINFO [0m:      		round 4: 230.01295471191406
+[92mINFO [0m:      		round 5: 229.8825225830078
+[92mINFO [0m:      		round 6: 229.75022888183594
+[92mINFO [0m:      		round 7: 229.61508178710938
+[92mINFO [0m:      		round 8: 229.47674560546875
+[92mINFO [0m:      		round 9: 229.33416748046875
+[92mINFO [0m:      		round 10: 229.1865234375
+[92mINFO [0m:      	History (metrics, distributed, evaluate):
+[92mINFO [0m:      	{'accuracy': [(1, 0.0983),
+[92mINFO [0m:      	              (2, 0.0985),
+[92mINFO [0m:      	              (3, 0.09859999999999998),
+[92mINFO [0m:      	              (4, 0.0985),
+[92mINFO [0m:      	              (5, 0.09859999999999998),
+[92mINFO [0m:      	              (6, 0.0987),
+[92mINFO [0m:      	              (7, 0.0988),
+[92mINFO [0m:      	              (8, 0.0988),
+[92mINFO [0m:      	              (9, 0.0989),
+[92mINFO [0m:      	              (10, 0.09909999999999998)]}
+[92mINFO [0m:      
+Python(78964) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.

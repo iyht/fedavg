@@ -1,0 +1,110 @@
+/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message c7a0cedc-7b78-441e-b69b-885355e981b3
+Client Evaluation: 
+Test Accuracy: 0.0983, Test Loss: 230.39069032669067
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 6eaae9b8-9be2-4ec0-a7ee-39e1e5435679
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.302734
+Test Accuracy: 0.098, Test Loss: 230.24680018424988
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 85307261-d8d4-4c30-ac9b-59bbe7d917ae
+Client Evaluation: 
+Test Accuracy: 0.0985, Test Loss: 230.26650190353394
+[92mINFO [0m:      Sent reply
+E0705 14:47:39.222813000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message eadcca6c-fb53-494a-82f0-824843515307
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.305821
+Test Accuracy: 0.098, Test Loss: 230.13544869422913
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 25e985d9-cdf5-4ab7-bc0c-b791aa6cc1c2
+Client Evaluation: 
+Test Accuracy: 0.0986, Test Loss: 230.14099836349487
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 55fc8ca7-4897-48cb-aeda-12b205116067
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.308283
+Test Accuracy: 0.098, Test Loss: 230.0196783542633
+[92mINFO [0m:      Sent reply
+E0705 14:50:02.508510000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 4f7a1f08-d569-4dda-ae78-0d40e07df597
+Client Evaluation: 
+Test Accuracy: 0.0985, Test Loss: 230.01296067237854
+[92mINFO [0m:      Sent reply
+E0705 14:51:02.791548000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 0a3e1dd9-9531-4033-a1f8-7d49c77c7e33
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.294555
+Test Accuracy: 0.098, Test Loss: 229.8874752521515
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 2860c07e-d84b-4f62-8a46-091260ed589f
+Client Evaluation: 
+Test Accuracy: 0.0986, Test Loss: 229.8825240135193
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 60163e2d-543b-47dc-8d12-2220bc231c88
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.289824
+Test Accuracy: 0.098, Test Loss: 229.7533016204834
+[92mINFO [0m:      Sent reply
+E0705 14:52:56.149054000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 6c19dbf5-6a8d-4fc4-98bf-5ac31ba6a574
+Client Evaluation: 
+Test Accuracy: 0.0987, Test Loss: 229.75023102760315
+[92mINFO [0m:      Sent reply
+E0705 14:53:39.670726000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message adb2787a-7e85-44df-a4df-db0cb767c02f
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.280823
+Test Accuracy: 0.098, Test Loss: 229.62350487709045
+[92mINFO [0m:      Sent reply
+E0705 14:54:37.925995000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 390881fb-2e07-4dfc-a1b8-e6729c7a1432
+Client Evaluation: 
+Test Accuracy: 0.0988, Test Loss: 229.6150860786438
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message dbe3f1b0-813b-4a9a-95b2-462b3a2501de
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.303272
+Test Accuracy: 0.098, Test Loss: 229.49539971351624
+[92mINFO [0m:      Sent reply
+E0705 14:56:01.234799000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 5f0f83f2-1ace-47e7-ab70-7538e0d34c0f
+Client Evaluation: 
+Test Accuracy: 0.0988, Test Loss: 229.4767394065857
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message b46b10e3-63cf-4e28-ac4a-6b8f962156c9
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.269780
+Test Accuracy: 0.098, Test Loss: 229.3517768383026
+[92mINFO [0m:      Sent reply
+E0705 14:57:23.527273000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message ac681dbd-d7ac-4087-9681-afa943735846
+Client Evaluation: 
+Test Accuracy: 0.0989, Test Loss: 229.33417057991028
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message e0a9dd87-942e-4817-9d82-0885155c67cf
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.296853
+Test Accuracy: 0.098, Test Loss: 229.20647859573364
+[92mINFO [0m:      Sent reply
+E0705 14:58:32.523452000 14470475776 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message c9e216b2-723f-43d6-be0e-f80fafa2da42
+Client Evaluation: 
+Test Accuracy: 0.0991, Test Loss: 229.1865200996399
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: reconnect message f865c9e5-580e-4e0c-8a63-d737f66a9c80
+[92mINFO [0m:      Disconnect and shut down
+Python(78888) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.

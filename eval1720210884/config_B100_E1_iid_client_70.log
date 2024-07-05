@@ -1,0 +1,108 @@
+/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message d961fb01-a9f3-4525-9898-0a9cc4962811
+Client Evaluation: 
+Test Accuracy: 0.088, Test Loss: 230.38200306892395
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 2efa6119-46cf-407c-9661-42e4da234044
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.306898
+Test Accuracy: 0.0991, Test Loss: 230.25561356544495
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 0a52f2d0-af12-4661-9def-3f73220dab4a
+Client Evaluation: 
+Test Accuracy: 0.0949, Test Loss: 230.25880360603333
+[92mINFO [0m:      Sent reply
+E0705 13:59:26.798693000 14525296640 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message cfb79f66-bec9-4027-9d8d-704984c72ee4
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.305939
+Test Accuracy: 0.1041, Test Loss: 230.12056946754456
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message ded1f81e-026c-4806-955d-de4c4754f274
+Client Evaluation: 
+Test Accuracy: 0.1014, Test Loss: 230.1357123851776
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 216fa57c-c393-4410-9fe1-dc9390554646
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.302566
+Test Accuracy: 0.1072, Test Loss: 230.00337386131287
+[92mINFO [0m:      Sent reply
+E0705 14:01:37.655026000 14525296640 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 1c297ce2-34bc-4763-a000-edfb03ef5a95
+Client Evaluation: 
+Test Accuracy: 0.1074, Test Loss: 230.011225938797
+[92mINFO [0m:      Sent reply
+E0705 14:02:43.242069000 14525296640 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 0f5716ba-104d-46b7-a9b9-cf99df0c10ce
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.297116
+Test Accuracy: 0.112, Test Loss: 229.88096046447754
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message adce1a6f-c171-4834-9c49-b67ada98d7c1
+Client Evaluation: 
+Test Accuracy: 0.1141, Test Loss: 229.8874170780182
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message d60ec43b-0039-4f54-a493-d052c82a70a8
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.292612
+Test Accuracy: 0.1136, Test Loss: 229.7682023048401
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 49211c9c-e5f0-495d-bdfb-96011767df42
+Client Evaluation: 
+Test Accuracy: 0.1186, Test Loss: 229.76430010795593
+[92mINFO [0m:      Sent reply
+E0705 14:12:01.129026000 14525296640 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message a06e9974-8e0e-4918-bd5b-a6a3a2164bca
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.299854
+Test Accuracy: 0.118, Test Loss: 229.64578652381897
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 9ccb46a7-d6b3-4b40-a102-ade7f8379b96
+Client Evaluation: 
+Test Accuracy: 0.1221, Test Loss: 229.64074635505676
+[92mINFO [0m:      Sent reply
+E0705 14:28:22.204878000 14525296640 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 976ff548-edbd-4b13-9fbf-00a4d0b5a8b0
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.292678
+Test Accuracy: 0.1178, Test Loss: 229.5212423801422
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 3d6f4cbe-37f6-427f-b1e9-3b4873c786f6
+Client Evaluation: 
+Test Accuracy: 0.1277, Test Loss: 229.5172164440155
+[92mINFO [0m:      Sent reply
+E0705 14:38:03.845249000 14525296640 tcp_posix.cc:598]                 recvmsg encountered uncommon error: Message too long
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message a6442dd6-0e09-466c-8248-69bc191b1349
+Train Epoch: 0 [0/600 (0%)]	Loss: 2.288802
+Test Accuracy: 0.1258, Test Loss: 229.39579796791077
+[92mINFO [0m:      Sent reply
+Traceback (most recent call last):
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/client.py", line 102, in <module>
+    main()
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/client.py", line 98, in main
+    fl.client.start_client(server_address="127.0.0.1:8080", client=client)
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/flwr/client/app.py", line 157, in start_client
+    _start_client_internal(
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/flwr/client/app.py", line 333, in _start_client_internal
+    message = receive()
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/flwr/client/grpc_client/connection.py", line 144, in receive
+    proto = next(server_message_iterator)
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/grpc/_channel.py", line 969, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "ping timeout"
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:127.0.0.1:8080 {grpc_message:"ping timeout", grpc_status:14, created_time:"2024-07-05T14:40:42.228815-07:00"}"
+>

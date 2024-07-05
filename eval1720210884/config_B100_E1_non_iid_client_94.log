@@ -1,0 +1,22 @@
+/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/client.py", line 102, in <module>
+    main()
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/client.py", line 98, in main
+    fl.client.start_client(server_address="127.0.0.1:8080", client=client)
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/flwr/client/app.py", line 157, in start_client
+    _start_client_internal(
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/flwr/client/app.py", line 333, in _start_client_internal
+    message = receive()
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/flwr/client/grpc_client/connection.py", line 144, in receive
+    proto = next(server_message_iterator)
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+  File "/Users/haotianyang/test/pytorch-from-centralized-to-federated/.venv/lib/python3.9/site-packages/grpc/_channel.py", line 969, in _next
+    raise self
+grpc._channel._MultiThreadedRendezvous: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Failed parsing HTTP/2"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Failed parsing HTTP/2", grpc_status:14, created_time:"2024-07-05T14:44:44.761336-07:00"}"
+>
