@@ -7,6 +7,8 @@ import datetime
 import time
 from time import sleep
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 
 def plot_accuracy(data, baseline, output_file):
     plt.figure(figsize=(10, 6))
@@ -27,7 +29,7 @@ def plot_accuracy(data, baseline, output_file):
 def main():
     processes = []
     all_data = []
-    all_configs = ["config_B10_E1_non_iid", "config_B10_E1_iid", "config_Bfull_E1_iid", "config_Bfull_E1_non_iid"]
+    all_configs = ["config_B10_E1_iid", "config_B10_E1_non_iid", "config_B100_E1_iid", "config_B100_E1_non_iid"]
 
     try:
         prefix = time.strftime("eval%s")

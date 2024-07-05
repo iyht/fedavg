@@ -12,6 +12,8 @@ from torchvision.transforms import Compose, ToTensor, Normalize
 from torchvision import datasets, transforms
 
 from flwr_datasets import FederatedDataset
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import json
 import argparse
@@ -151,8 +153,9 @@ def load_data(partition_id: int, train_conf: Dict[str, Any]):
     # check the sharding is correct
     assert(torch.equal(train_dataset_subset[0][0], train_dataset[train_indices[0]][0]))
     assert(train_dataset_subset[0][1] == train_dataset[train_indices[0]][1])
-    train_loader = DataLoader(train_dataset_subset, batch_size=train_conf["batchsize"], shuffle=True)
-    test_loader = DataLoader(test_dataset, batch_size=train_conf["batchsize"])
+    batch_size = len(train_dataset_subset) if train_conf["batchsize"] == "full" else train_conf["batchsize"] 
+    train_loader = DataLoader(train_dataset_subset, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size)
 
     return train_loader, test_loader
 
