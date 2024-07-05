@@ -3,11 +3,11 @@
 
 A toy code to conduct the experiment for the paper [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/pdf/1602.05629) using [Flower](https://flower.ai/) framework with MNIST dataset.
 
-Locally simulate 100 clients using both IID and Non-IID data with the FedAvg algorithm under various training settings, yielding the following results.
+`./run.py` will generate an `eval` folder to store all the results and figures.
+
+For the current configuration, it simulates 100 clients using both IID and Non-IID data with the FedAvg algorithm under various training settings, yielding the following results. The comparison figure below is conducted on the Apple M1 Pro Chip with 32GB memory. 
 
 ![](./eval1720210884/centralized_fedavg_accuracy_comparison.png)
-
-`./run.py` will generate all the `eval` folder to store all the result and figures.
 
 All the `*.json` files specify various training parameters. For instance, in `config_B100_E1_non_iid.json`, as shown below, we can configure these parameters for each evaluation. The following configuration will spawn 100 Flower clients and 1 server process. Each client runs local training with their own Non-IID local dataset with 1 epoch and 100 mini-batch sizes. Afterward, the local parameter of the model will be sent back to the server as 1 communication round. This configuration will run 10 communication rounds.
 ```
